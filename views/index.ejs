@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="all">
+    <meta name="robots" content="follow">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/img/share.jpg">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon.ico">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="/img/favicon.ico">
+    <link rel="icon" type="image/jpg" sizes="16x16" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/jpg" sizes="16x16" href="/img/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Room Booking Dashboard</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="buttons">
+            <button class="button classrooms">Classrooms</button>
+            <button class="button spaces">Spaces</button>
+            <button class="button meetingrooms">Meeting Rooms</button>
+            <button class="button other">Others</button>
+        </div>
+        <div class="select">
+            <label for="select_room">Select Room: </label>
+            <select id="select_room"></select>
+        </div>
+        <div class="select">
+            <label for="select_fixed">Select fixed: </label>
+            <select id="select_fixed">
+                <option value="none">None</option>
+                <option value="fixed">Fixed</option>
+                <option value="not fixed">Not Fixed</option>
+            </select>
+        </div>
+        <div class="select">
+            <label for="select_recording">Select recording: </label>
+            <select id="select_recording">
+                <option value="none">None</option>
+                <option value="recording">Recording</option>
+                <option value="isnt Recording">Isn't Recording</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="calendarContainer">
+        <div id="calendar"></div>
+    </div>
+    
+</body>
+<script src="/js/index.js"></script>
+</html>
